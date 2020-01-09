@@ -1,0 +1,134 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d" Style="{StaticResource Window_Style}"
+        Title="دستیار فارسی" Height="408" Width="800" ResizeMode="CanMinimize"  FlowDirection="RightToLeft"    ForceCursor="True" KeyUp="Window_KeyUp" Loaded="Window_Loaded" Closing="MainWindow_Closing" FontFamily="B Karim" FontSize="18"   >
+
+    <Window.Resources>
+        <Storyboard x:Key="OpenMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="Target">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="230"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="CloseMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="Target">
+                <EasingDoubleKeyFrame KeyTime="0" Value="230"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger x:Name="Opener" RoutedEvent="ButtonBase.Click" SourceName="Open" >
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+        </EventTrigger>
+        <EventTrigger x:Name="Closer" RoutedEvent="ButtonBase.Click" SourceName="Close" >
+            <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid Margin="0,0,0,0" FocusManager.FocusedElement="{Binding ElementName=textBox}" >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+        <Grid></Grid>
+        <Border  Style="{StaticResource Border_Style}"   Margin="0,2,0,0" Grid.Row="0" Height="32"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image  x:Name="icon" Grid.Column="0" Style="{StaticResource IconStyle}" ></Image>
+                <TextBlock x:Name="title" Grid.Column="1" Background="Transparent" Width="{Binding Source=Text}" ></TextBlock>
+
+            </Grid>
+            <Grid Grid.Column="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="115*"/>
+                    <ColumnDefinition Width="33*"/>
+                    <ColumnDefinition Width="26*"/>
+                    <ColumnDefinition Width="26*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="Fonts And Pictures/exit_1205508.png" Width="14" HorizontalAlignment="Center" Grid.Column="3"  MouseDown="Ellipse_MouseDown" Margin="4,4,8,3"/>
+                <Image Width="14" HorizontalAlignment="Left" Grid.Column="2"  MouseDown="Ellipse_MouseDown_1" Margin="2,4,0,3" Source="Fonts And Pictures/029-ScaleDown-512.png"/>
+
+            </Grid>
+        </Grid>
+
+        <Grid Style="{StaticResource  Grid_Style}" Grid.RowSpan="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="37*"/>
+                <RowDefinition Height="49*"/>
+                <RowDefinition Height="74*"/>
+                <RowDefinition Height="53*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="53*"/>
+                <RowDefinition Height="54*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Name="Target" Grid.Column="4" Margin="0,0,0,11" Grid.RowSpan="7">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button x:Name="Settings" Click="Add_command_Click" Grid.Row="1" Margin="5" Style="{StaticResource  Button_Style}" >
+                    <Image Source="Fonts And Pictures/Audio player/technical-support.png"></Image>
+                </Button>
+                <Button x:Name="MediaPlayer" Grid.Row="2" Margin="5" Click="Add_Movie_button_Click" Style="{StaticResource  Button_Style}">
+                    <Image Source="Fonts And Pictures/tv.png"></Image>
+                </Button>
+                <Button x:Name="AudioPlayer" Grid.Row="3" Margin="5" Style="{StaticResource  Button_Style}" Click="AudioPlayer_Click">
+                    <Image Source="Fonts And Pictures/radio.png"></Image>
+                </Button>
+            </Grid>
+            <Button Style="{StaticResource Button_Style}" x:Name="button"      Content="ارسال" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.Row="5" Grid.Column="1" Margin="42,9,0,0" Height="32"/>
+            <Button Name="Open"  Grid.Column="4"  Style="{StaticResource Button_Style}" Click="Open_Click" Margin="0,0,0,10" Grid.RowSpan="2">
+                <Image Source="Fonts And Pictures/menu.png"></Image>
+            </Button>
+            <Button Name="Close" Grid.Column="4"  Style="{StaticResource Button_Style}" Click="Close_Click" Margin="0,0,0,10" Grid.RowSpan="2">
+                <Image Source="Fonts And Pictures/menu(1).png"></Image>
+            </Button>
+            <Label x:Name="label"  HorizontalAlignment="Left"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" Margin="80,8,0,0" VerticalAlignment="Top" Height="128" Width="171" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+            <ScrollViewer Grid.Row="2" Grid.Column="2" Margin="0,0,0,10" Grid.RowSpan="2">
+                <TextBlock   x:Name="label1" HorizontalAlignment="Center" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" VerticalAlignment="Center" Width="148" Height="72" />
+
+            </ScrollViewer>
+
+
+            <ScrollViewer  Grid.Column="0" Grid.Row="5" Margin="5,0,0,0">
+                <TextBox BorderThickness="0" Background="Transparent" x:Name="textBox" Margin="2" HorizontalAlignment="Left"  BorderBrush="Orange"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" TextWrapping="Wrap" Width="160" Grid.Column="1" Height="53"/>
+            </ScrollViewer>
+
+            <StackPanel Grid.ColumnSpan="2"  Grid.RowSpan="2" >
+                <DataGrid x:Name="dataGrid"  HorizontalAlignment ="Left" Margin="1056.175,16,0,0"  FontFamily="B Karim" FontSize="18" VerticalAlignment="Top" Height="{Binding}" Width="{Binding}" Grid.Column="1" Visibility="Visible"/>
+            </StackPanel>
+            <Button x:Name="play_music_button" Visibility="Hidden"  Content="پخش آهنگ"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim"  HorizontalAlignment="Center" Width="76" Click="Play_music_button_Click" Height="44" VerticalAlignment="Center" Style="{StaticResource Button_Style}" Grid.Column="3" Grid.Row="6" Margin="42,5"/>
+            <Button x:Name="Add_Movie_button"   Content="پخش فیلم" HorizontalAlignment="Center"   Style="{StaticResource Button_Style}"  VerticalAlignment="Center" Width="76" Visibility="Hidden" Click="Add_Movie_button_Click" Grid.Column="2" Grid.Row="6" Height="32" Margin="42,11"/>
+            <Button Visibility="Hidden" x:Name="Add_command" Content="افزودن دستور"  Grid.Column="2" Style="{StaticResource Button_Style}" FontSize="16" HorizontalAlignment="Center"   VerticalAlignment="Top" Width="80" Height="43" Click="Add_command_Click" Grid.Row="5" Margin="40,0"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

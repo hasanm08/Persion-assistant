@@ -1,0 +1,32 @@
+﻿<Window x:Class="Persion_Assistant08.Video_Downloader.Links"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="لیست دانلود" ResizeMode="NoResize" Height="450" Width="800"  Loaded="Window_Loaded"  Closing="Window_Closing">
+
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="Button_Style">
+            <Setter Property="FontFamily" Value="/Persion Assistant08;component/#Calibri"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+      
+        <ScrollViewer x:Name="Scroll">
+            <StackPanel   x:Name="sp" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" RenderTransformOrigin="0.5,0.5">
+               
+            </StackPanel>
+
+        </ScrollViewer>
+        <Image x:Name="Film_image" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Height="{Binding}" Width="{Binding}" Grid.Column="1" Source="/Fonts And Pictures/Ashampoo_Snap_2018.10.08_17h18m29s_001_.png"  />
+    </Grid>
+
+
+</Window>

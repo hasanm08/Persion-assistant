@@ -1,0 +1,29 @@
+
+H:\Learn\Maktabkhooneh\Computer Architecture (Godarzi)*معماری
+H:\Movie*فیلم
+C:\Program Files (x86)\Arduino\arduino.exe*اردینو
+H:\hassan\7Learn_Android_Full_1-41_Share4ever.Online_*اندروید
+H:\Movie\WL*لیست پخش
+C:\Program Files\Pro Evolution Soccer 2018\PES2018.exe*فوتبال
+C:\Program Files\Microsoft Office\Office16\WINWORD.exe*ورد
+C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.5\bin\idea64.exe*جاوا
+C:\Program Files (x86)\Freemake\Freemake Video Converter\FreemakeVideoConverter.exe*فری میک
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe*ویژوال
+D:\bracket\Brackets.exe*براکت
+C:\Users\pars\Downloads\BurnMedia_src\bin\Debug\BurnMedia.exe*سی دی
+C:\Program Files\JetBrains\PyCharm 2018.2.4\bin\pycharm64.exe*پایتون
+C:\Users\pars\Desktop\Dooz.exe*دوز
+H:\Learn\Maktabkhooneh\Computer Architecture (Godarzi)*معماری
+H:\Movie*فیلم
+C:\Program Files (x86)\Arduino\arduino.exe*اردینو
+H:\hassan\7Learn_Android_Full_1-41_Share4ever.Online_*اندروید
+H:\Movie\WL*لیست پخش
+C:\Program Files\Pro Evolution Soccer 2018\PES2018.exe*فوتبال
+C:\Program Files\Microsoft Office\Office16\WINWORD.exe*ورد
+C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.5\bin\idea64.exe*جاوا
+C:\Program Files (x86)\Freemake\Freemake Video Converter\FreemakeVideoConverter.exe*فری میک
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe*ویژوال
+D:\bracket\Brackets.exe*براکت
+C:\Users\pars\Downloads\BurnMedia_src\bin\Debug\BurnMedia.exe*سی دی
+C:\Program Files\JetBrains\PyCharm 2018.2.4\bin\pycharm64.exe*پایتون
+C:\Users\pars\Desktop\Dooz.exe*دوز

@@ -1,0 +1,61 @@
+﻿
+<Application x:Class="WpfApplication2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+           
+                
+            <ResourceDictionary.MergedDictionaries>
+                <!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! -->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <!-- Accent and AppTheme setting -->
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+           
+            <Style x:Key="Window_Style" TargetType="Window">
+                <Setter Property="AllowsTransparency" Value="True"></Setter>
+                <Setter Property="Background" Value="Transparent"></Setter>
+                <Setter Property="WindowStyle"  Value="None" ></Setter>
+                <Setter Property="FlowDirection" Value="RightToLeft"></Setter>
+                <Setter Property="ResizeMode" Value="CanMinimize"></Setter>
+            </Style>
+            <Style x:Key="Button_Style" TargetType="Button">
+                <Setter Property="Background" Value="Transparent"></Setter>
+                <Setter Property="BorderThickness" Value="0"></Setter>
+                <Setter Property="Foreground" Value="#26204f" ></Setter>
+                <Setter Property="FontFamily" Value="/Persion Assistant08;component/Fonts And Pictures/#B Karim"></Setter>
+                <Setter Property="FontSize" Value="18"></Setter>
+            </Style>
+            <Style x:Key="Grid_Style" TargetType="Grid">
+                <Setter Property="Background" Value="Aquamarine"></Setter>
+
+            </Style>
+            <Style x:Key="Border_Style" TargetType="Border">
+                <Setter Property="CornerRadius" Value="8,8,0,0"></Setter>
+                <Setter Property="Background" Value="Aqua"></Setter>
+                <Setter Property="Height" Value="21"></Setter>
+                <Setter Property="VerticalAlignment" Value="Top"></Setter>
+
+            </Style>
+            <Style x:Key="TextBlock_Style" TargetType="TextBlock">
+                <Setter Property="Background" Value="Transparent"></Setter>
+                <Setter Property="Foreground" Value="#26204f"></Setter>
+            </Style>
+            <Style x:Key="RadioButton_Style" TargetType="RadioButton">
+                <Setter Property="Background" Value="Transparent"></Setter>
+                <Setter Property="Foreground" Value="#26204f"></Setter>
+            </Style>
+
+            <Style x:Key="IconStyle" TargetType="Image">
+                <Setter Property="Source" Value="Fonts And Pictures/Icon (2).ico" ></Setter>
+            </Style>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

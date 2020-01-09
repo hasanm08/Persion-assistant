@@ -1,0 +1,196 @@
+﻿<Window x:Class="Persion_Assistant08.Play_Song.Song_Player"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Persion_Assistant08.Play_Song"
+        mc:Ignorable="d"
+        Title="Song_Player" Height="152" Width="320" Style="{StaticResource Window_Style}" Closing="Window_Closing">
+    <Window.Resources>
+        <ResourceDictionary Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/Dictionary1.xaml" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="41*"/>
+        </Grid.RowDefinitions>
+        <Border Style="{StaticResource Border_Style}" Background="DeepPink" Grid.RowSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="3*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image  x:Name="icon" Grid.Column="0" Style="{StaticResource IconStyle}" Margin="6,0,0,7" ></Image>
+                    <TextBlock x:Name="title" Grid.Column="1" Background="Transparent" Width="{Binding Source=Text}" ></TextBlock>
+
+                </Grid>
+                <Grid Grid.Column="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="49*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="23*"/>
+                        <ColumnDefinition Width="19*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Fonts And Pictures/exit_1205508.png" Width="10" HorizontalAlignment="Center" Grid.Column="3"  MouseDown="Ellipse_MouseDown" Margin="5,4,4,7"/>
+                    <Image Width="11" HorizontalAlignment="Left" Grid.Column="2"  MouseDown="Ellipse_MouseDown_1" Margin="5,4,0,7" Source="/Fonts And Pictures/029-ScaleDown-512.png"/>
+
+                </Grid>
+            </Grid>
+
+        </Border>
+        <Grid Background="Gainsboro" Grid.Row="1" Grid.RowSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="79*" ></RowDefinition>
+                <RowDefinition Height="59*" ></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="37*"/>
+                    <ColumnDefinition Width="123*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Margin="0,1,0,-1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="40*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80*"/>
+                        <ColumnDefinition Width="80*"/>
+                    </Grid.ColumnDefinitions>
+                   <!-- <Button Style="{StaticResource Button_Style}">
+                        <Image></Image>
+                    </Button>-->
+                    <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource Button_Style}" Click="Button_Click_1">
+                        <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/repeat.png"></Image>
+                    </Button>
+                    <!-- <Button IsCancel="False"   Grid.Column="1" Grid.Row="0" Style="{StaticResource Button_Style}" x:Name="Shuffle">
+                        <Image></Image>
+
+                    </Button>-->
+                    <Button Grid.Column="1" Grid.Row="1" Style="{StaticResource Button_Style}" Click="Button_Click">
+                        <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/shuffle.png"></Image>
+                    </Button>
+
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="151*"/>
+                        <ColumnDefinition Width="95*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image  Margin="5" x:Name="SongCover" Grid.Column="1" Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/music.png"></Image>
+                    <TextBlock x:Name="SongLabel" Background="Transparent" VerticalAlignment="Top" Margin="7" Width="{Binding }" Height="{Binding}" HorizontalAlignment="Right" TextWrapping="Wrap"   FontFamily="/Persion Assistant08;component/Fonts And Pictures/#Calibri"  >Content goes here</TextBlock>
+                </Grid>
+            </Grid>
+           
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="18*" ></RowDefinition>
+                    <RowDefinition Height="41*" ></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Slider x:Name="SongSlider" BorderBrush="{StaticResource SliderThumbBorderHover}" HorizontalAlignment="Left" Grid.Row="0" Margin="5,0,5,0" VerticalAlignment="Top" Width="310"  >
+                    <Slider.Resources>
+                        <ResourceDictionary>
+                            <ResourceDictionary.MergedDictionaries>
+                                <ResourceDictionary Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/Dictionary1.xaml"></ResourceDictionary>
+                            </ResourceDictionary.MergedDictionaries>
+                        </ResourceDictionary>
+                    </Slider.Resources>
+                </Slider>
+                <Grid Grid.Row="1">
+                    <Grid Grid.Column="0" Margin="5">
+                        <Button Style="{StaticResource Button_Style}" x:Name="PlayList" Click="PlayList_Click">
+                            <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/audio-file.png"></Image>
+                        </Button>
+                        <Button Style="{StaticResource Button_Style}" Grid.Column="1" x:Name="Settings">
+                            <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/settings.png"></Image>
+                        </Button>
+                        <Button Style="{StaticResource Button_Style}" Grid.Column="2" x:Name="Eject" Click="Eject_Click">
+                            <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/eject.png"></Image>
+                        </Button>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                    <Grid Grid.Column="1" Margin="5">
+                        <Button Grid.Column="0 " Style="{StaticResource Button_Style}" x:Name="Next" Click="Next_Click">
+                            <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/next.png" >
+                            </Image>
+                        </Button>
+                        <Button Grid.Column="1 "  Style="{StaticResource Button_Style}" x:Name="Play" Click="Play_Click">
+                            <Image x:Name="PImage" Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/play.png" >
+                            </Image>
+                        </Button>
+                        <Button Grid.Column="2 "  Style="{StaticResource Button_Style}" x:Name="Perv" Click="Perv_Click">
+                            <Image  Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/next.png" RenderTransformOrigin="0.5,0.5" >
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                                        <SkewTransform AngleY="0" AngleX="0"/>
+                                        <RotateTransform Angle="0"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+                            </Image>
+                        </Button>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                    <Grid Grid.Column="2" Margin="5">
+                        <Slider x:Name="SoundSlider" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="2"  Width="30"/>
+                        <Button Grid.Column="0" Style="{StaticResource Button_Style}" x:Name="Stop" Click="Stop_Click">
+                            <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/stop.png"></Image>
+                        </Button>
+                        <Button Grid.Column="1" Style="{StaticResource Button_Style}" x:Name="Speaker">
+                            <Image Source="/Persion Assistant08;component/Fonts And Pictures/Audio player/speaker.png" RenderTransformOrigin="0.5,0.5">
+                                <Image.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                                        <SkewTransform AngleY="0" AngleX="0"/>
+                                        <RotateTransform Angle="0"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Image.RenderTransform>
+
+                            </Image>
+                        </Button>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

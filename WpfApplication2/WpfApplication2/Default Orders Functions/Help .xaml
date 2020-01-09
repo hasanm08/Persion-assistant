@@ -1,0 +1,13 @@
+﻿<Window x:Class="Persion_Assistant08.Default_Orders_Functions.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="راهنما" Height="353.704" Width="337.037" Loaded="Window_Loaded" ResizeMode="NoResize" >
+    <Grid>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Center" VerticalAlignment="Center" Height="313" Width="282" Margin="10,0,0,0" SelectionChanged="DataGrid_SelectionChanged"/>
+
+    </Grid>
+</Window>

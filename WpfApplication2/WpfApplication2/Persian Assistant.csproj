@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57DC17CD-CA5B-4D2B-863B-DDF62B815854}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Persion_Assistant08</RootNamespace>
+    <AssemblyName>Persion Assistant08</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Fonts And Pictures\Icon %282%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ControlzEx, Version=3.0.2.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net45\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.8.11.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.8.11\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro, Version=1.6.5.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.6.5\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="policy.2.0.taglib-sharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=db62eba44689b5b0, processorArchitecture=MSIL">
+      <HintPath>..\packages\taglib.2.1.0.0\lib\policy.2.0.taglib-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="presentationframework.aero2" />
+    <Reference Include="presentationframework.aerolite" />
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="PresentationFramework.Luna" />
+    <Reference Include="PresentationFramework.Royale" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="taglib-sharp, Version=2.1.0.0, Culture=neutral, PublicKeyToken=db62eba44689b5b0, processorArchitecture=MSIL">
+      <HintPath>..\packages\taglib.2.1.0.0\lib\taglib-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows.Data" />
+    <Reference Include="Windows.Foundation" />
+    <Reference Include="Windows.UI" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="About_US.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About_US.Designer.cs">
+      <DependentUpon>About_US.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DA\DataBase.cs" />
+    <Compile Include="DA\Entity.cs" />
+    <Compile Include="DA\Positions.cs" />
+    <Compile Include="Default Orders Functions\Naseza.cs" />
+    <Compile Include="Default Orders Functions\Help .xaml.cs">
+      <DependentUpon>Help .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Default Orders Functions\send_Email .xaml.cs">
+      <DependentUpon>send_Email .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812111656096_posit.cs" />
+    <Compile Include="Migrations\201812111656096_posit.Designer.cs">
+      <DependentUpon>201812111656096_posit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Personalize Orders\Edit_Orders.cs" />
+    <Compile Include="Personalize Orders\Intionalize_Title_And_Address.xaml.cs">
+      <DependentUpon>Intionalize_Title_And_Address.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Personalize Orders\Order_Eror.xaml.cs">
+      <DependentUpon>Order_Eror.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Play Song\Audio.cs" />
+    <Compile Include="Play Song\DoublyCircuralyLinkList.cs" />
+    <Compile Include="Play Song\DoublyLinkList.cs" />
+    <Compile Include="Play Song\Play List.cs" />
+    <Compile Include="Play Song\PlayerClass.cs" />
+    <Compile Include="Play Song\PlayListWindow.xaml.cs">
+      <DependentUpon>PlayListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Play Song\PlayMethods\IPlay.cs" />
+    <Compile Include="Play Song\PlayMethods\Normal.cs" />
+    <Compile Include="Play Song\PlayMethods\Reapet.cs" />
+    <Compile Include="Play Song\Queue.cs" />
+    <Compile Include="Play Song\Song Player.xaml.cs">
+      <DependentUpon>Song Player.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Play Song\Song.cs" />
+    <Compile Include="Play Video\Subtitle.cs" />
+    <Compile Include="Play Video\Play video.xaml.cs">
+      <DependentUpon>Play video.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reminder\Add_Reminder .xaml.cs">
+      <DependentUpon>Add_Reminder .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reminder\A_Reminder_That_FindLink.cs" />
+    <Compile Include="Reminder\Remember .xaml.cs">
+      <DependentUpon>Remember .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reminder\Reminder_DeadLine .xaml.cs">
+      <DependentUpon>Reminder_DeadLine .xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Toast Notification\PYNotif.cs" />
+    <Compile Include="Video Downloader\LinkFinder.cs" />
+    <Compile Include="Video Downloader\Links .xaml.cs">
+      <DependentUpon>Links .xaml</DependentUpon>
+    </Compile>
+    <Page Include="Default Orders Functions\Help .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Default Orders Functions\send_Email .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Fonts And Pictures\Audio player\Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Fonts And Pictures\DataGridDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Personalize Orders\Intionalize_Title_And_Address.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Personalize Orders\Order_Eror.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Play Song\PlayListWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Play Song\Song Player.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Play Video\Play video.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reminder\Add_Reminder .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reminder\Remember .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reminder\Reminder_DeadLine .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Video Downloader\Links .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="PersianA08.cd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\base_library.zip" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\NotFound.exe.manifest" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\pyexpat.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\select.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\unicodedata.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\win32api.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\win32com\shell\shell.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\win32gui.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\win32trace.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\win32ui.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\win32wnet.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\_bz2.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\_ctypes.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\_hashlib.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\_lzma.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\_socket.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\_ssl.pyd" />
+    <None Include="Toast Notification\PyCodes\dist\NotFound\_win32sysloader.pyd" />
+    <Resource Include="Fonts And Pictures\pause.png" />
+    <Resource Include="Fonts And Pictures\play.png" />
+    <Resource Include="Fonts And Pictures\stop.png" />
+    <EmbeddedResource Include="About_US.resx">
+      <DependentUpon>About_US.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812111656096_posit.resx">
+      <DependentUpon>201812111656096_posit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Fonts And Pictures\BKARIM.TTF" />
+    <Resource Include="Fonts And Pictures\BKARIMBD.TTF" />
+    <Resource Include="Fonts And Pictures\CALIBRI.TTF" />
+    <Resource Include="Fonts And Pictures\CALIBRIB.TTF" />
+    <Resource Include="Fonts And Pictures\CALIBRII.TTF" />
+    <Resource Include="Fonts And Pictures\CALIBRIL.TTF" />
+    <Resource Include="Fonts And Pictures\CALIBRILI.TTF" />
+    <Resource Include="Fonts And Pictures\CALIBRIZ.TTF" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts And Pictures\Ashampoo_Snap_2018.10.08_17h18m29s_001_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts And Pictures\vol+.png" />
+    <Resource Include="Fonts And Pictures\vol-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Toast Notification\PyCodes\dist\NotFound\win32com\Icon %282%29.ico" />
+    <Resource Include="Fonts And Pictures\close.jpg" />
+    <Resource Include="Fonts And Pictures\min_icon_pack_0_aDd_icon.ico" />
+    <Resource Include="Fonts And Pictures\029-ScaleDown-512.png" />
+    <Resource Include="Fonts And Pictures\exit_1205508.png" />
+    <Resource Include="Fonts And Pictures\Icon %282%29.ico" />
+    <None Include="Resources\min-logo.png" />
+    <Resource Include="Fonts And Pictures\Audio player\audio-file.png" />
+    <Resource Include="Fonts And Pictures\Audio player\eject.png" />
+    <Resource Include="Fonts And Pictures\Audio player\fast-forward.png" />
+    <Resource Include="Fonts And Pictures\Audio player\folder.png" />
+    <Resource Include="Fonts And Pictures\Audio player\music.png" />
+    <Resource Include="Fonts And Pictures\Audio player\next.png" />
+    <Resource Include="Fonts And Pictures\Audio player\pause.png" />
+    <Resource Include="Fonts And Pictures\Audio player\play.png" />
+    <Resource Include="Fonts And Pictures\Audio player\repeat.png" />
+    <Resource Include="Fonts And Pictures\Audio player\settings.png" />
+    <Resource Include="Fonts And Pictures\Audio player\shuffle.png" />
+    <Resource Include="Fonts And Pictures\Audio player\stop.png" />
+    <Resource Include="Fonts And Pictures\Audio player\speaker.png" />
+    <Resource Include="Fonts And Pictures\Audio player\technical-support.png" />
+    <Resource Include="Test\pause.png" />
+    <Resource Include="Fonts And Pictures\radio.png" />
+    <Resource Include="Fonts And Pictures\tv.png" />
+    <Resource Include="Fonts And Pictures\menu.png" />
+    <Resource Include="Fonts And Pictures\menu%281%29.png" />
+    <Resource Include="Fonts And Pictures\Audio player\up-arrow.png" />
+    <Resource Include="Fonts And Pictures\Audio player\down-arrow.png" />
+    <Resource Include="Fonts And Pictures\Audio player\add.png" />
+    <Resource Include="Fonts And Pictures\Audio player\minus.png" />
+    <Resource Include="Fonts And Pictures\Audio player\save.png" />
+    <Resource Include="Fonts And Pictures\Audio player\upload.png" />
+    <Content Include="Toast Notification\PyCodes\dist\NotFound\Include\pyconfig.h" />
+    <Content Include="Toast Notification\PyCodes\dist\NotFound\mfc140u.dll" />
+    <Content Include="Toast Notification\PyCodes\dist\NotFound\NotFound.exe" />
+    <Content Include="Toast Notification\PyCodes\dist\NotFound\python36.dll" />
+    <Content Include="Toast Notification\PyCodes\dist\NotFound\pythoncom36.dll" />
+    <Content Include="Toast Notification\PyCodes\dist\NotFound\pywintypes36.dll" />
+    <Content Include="Toast Notification\PyCodes\dist\NotFound\VCRUNTIME140.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

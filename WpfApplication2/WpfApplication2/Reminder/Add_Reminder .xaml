@@ -1,0 +1,26 @@
+﻿<Window x:Class="Persion_Assistant08.Reminder.Add_Reminder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="افزودن یاداور" Height="310.526" Width="300" Loaded="Window_Loaded"  ResizeMode="NoResize">
+    <Grid Margin="0,0,0,0">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="136,65,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="51" Margin="136,113,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="136,194,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="عنوان یاداور" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="19,113,0,0" TextWrapping="Wrap" Text="متن یاداور" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,173,0,0" TextWrapping="Wrap" Text="فاصله زمانی تا امروز" VerticalAlignment="Top" Width="108"/>
+        <Button x:Name="button" Background="Orange" Content="افزودن" BorderBrush="Orange" HorizontalAlignment="Left" Margin="43,0,0,16" Width="75" Click="Button_Click" Height="32" VerticalAlignment="Bottom" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="14"/>
+        <CheckBox x:Name="checkBox" Content="تنظیم تاریخ شمسی" HorizontalAlignment="Left" Margin="143,240,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim"/>
+        <TextBox x:Name="Year" HorizontalAlignment="Left" Height="23" Margin="43,194,0,0" TextWrapping="Wrap" Width="57" VerticalAlignment="Top"/>
+        <TextBox x:Name="Month" HorizontalAlignment="Left" Height="23" Margin="167,194,0,0" TextWrapping="Wrap" Width="36" VerticalAlignment="Top"/>
+        <TextBox x:Name="Day" HorizontalAlignment="Left" Height="23" Margin="244,194,0,0" TextWrapping="Wrap" Width="29" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlockYear" HorizontalAlignment="Left" Margin="10,197,0,0" TextWrapping="Wrap" Text="سال:" Height="22" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlockMonth" HorizontalAlignment="Left" Margin="114,197,0,0" TextWrapping="Wrap" Text="ماه:" Width="37" Height="16" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlockDay" HorizontalAlignment="Left" Margin="208,197,0,0" TextWrapping="Wrap" Text="روز:" Height="16" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

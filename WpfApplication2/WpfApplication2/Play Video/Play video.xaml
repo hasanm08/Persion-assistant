@@ -1,0 +1,54 @@
+﻿<Window x:Class="Persion_Assistant08.Play_Video.Play_video"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        xmlns:Forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms" xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
+        mc:Ignorable="d"
+        Title="Play_video" Height="562.5" Width="1000"  KeyUp="Window_KeyUp" Loaded="Window_Loaded" KeyDown="Window_KeyDown" >
+
+    <Grid>
+        <Slider x:Name="seekBar" VerticalAlignment="Bottom" Maximum="100"  SmallChange="1" LargeChange="10" TickFrequency="10" Margin="0,483,10,0" MouseLeftButtonUp="SeekSlider_MouseLeftButtonUp" PreviewMouseLeftButtonDown="SeekSlider_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="SeekSlider_PreviewMouseLeftButtonUp" ValueChanged="SeekBar_ValueChanged" DragOver="SeekBar_DragOver"  Foreground="Orange" BorderBrush="#FFDE9C0F" OpacityMask="Black"  mah:SliderHelper.TrackValueFillBrush="#CCDE9C0F" mah:SliderHelper.TrackValueFillHoverBrush="#CCDE9C0F" mah:SliderHelper.TrackValueFillPressedBrush="#CCDE9C0F" Opacity="20"  >
+            <Slider.Effect>
+                <BlurEffect RenderingBias="Quality"/>
+            </Slider.Effect>
+        </Slider>
+
+
+
+
+        <MediaElement x:Name="mediaElement"  LoadedBehavior="Manual" MediaOpened="MediaElement_MediaOpened" Margin="0,5,0,46" Loaded="MediaElement_Loaded" MediaEnded="MediaElement_MediaEnded" MouseEnter="MediaElement_MouseEnter" Source="{Binding VideoUri, NotifyOnSourceUpdated=True, NotifyOnTargetUpdated=True}" VerticalAlignment="Center" HorizontalAlignment="Center" Cursor="None"/>
+        <Button x:Name="button" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="12" Background="Orange" Content="پخش" BorderBrush="Orange" Margin="237,0,448,18" VerticalAlignment="Bottom" Width="75" Click="Button_Click" />
+        <Button x:Name="button1" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="12" Background="Orange" Content="توقف" BorderBrush="Orange" Margin="459,0,226,18" VerticalAlignment="Bottom" Width="75" Click="Button1_Click" />
+
+        <Button x:Name="button2" Background="Orange" Content="مکث" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="12" BorderBrush="Orange" Margin="697,0,220,17" Width="75" Height="32" VerticalAlignment="Bottom" Click="Button2_Click" RenderTransformOrigin="0.5,0.5" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-0.99" Y="0.062"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.DataContext>
+                <Forms:MouseButtons>None</Forms:MouseButtons>
+            </Button.DataContext>
+        </Button>
+        <Button x:Name="button3" Background="Orange" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="12" Content="تغییر اندازه" BorderBrush="Orange" Margin="352,0,333,18" VerticalAlignment="Bottom" Width="75" Click="Button3_Click" />
+        <TextBlock x:Name="currentTimeTextBlock" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="12" VerticalAlignment="Bottom"  Margin="10,0,687,30" TextWrapping="Wrap" Foreground="#FFF7F7F7"/>
+
+
+        <Button x:Name="button4" Background="Orange" Content="زیرنویس"  Margin="136,0,548,18" VerticalAlignment="Bottom" Width="75" RenderTransformOrigin="0.5,0.5" BorderBrush="Orange" Click="Button4_Click" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="12"/>
+        <RichTextBox x:Name="richTextBox" Foreground="White" FontFamily="B Zar"   FontSize="25"  Height="100" Margin="0,0,10,51" VerticalAlignment="Bottom" Width="750" BorderThickness="0" Block.TextAlignment="Center" FontWeight="ExtraBold">
+
+            <FlowDocument>
+                <Paragraph>
+                    <Run  />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="not implemented yet">
+    <Position X="11.904" Y="9.263" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Persion_Assistant08.Video_Downloader.LinkItem">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAACAAAAAA=</HashCode>
+      <FileName>Video Downloader\LinkFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persion_Assistant08.Video_Downloader.LinkFinder">
+    <Position X="14.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Video Downloader\LinkFinder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Links" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Persion_Assistant08.Video_Downloader.Links" BaseTypeListCollapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IDAAAAEAAAgAAgAAABAAAAgAAQAAAAggAAAAAAAAAAQ=</HashCode>
+      <FileName>Video Downloader\Links .xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="shows" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Toast_Notification.PYNotif">
+    <Position X="15.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACAA=</HashCode>
+      <FileName>Toast Notification\PYNotif.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persion_Assistant08.Default_Orders_Functions.Helper">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABA=</HashCode>
+      <FileName>Default Orders Functions\Help .xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Save_informations" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Persion_Assistant08.Default_Orders_Functions.Helper2">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAgAAAAA=</HashCode>
+      <FileName>Default Orders Functions\Help .xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Save_informations" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Persion_Assistant08.Default_Orders_Functions.Help" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAARAAAAQAAAAQAAAAA=</HashCode>
+      <FileName>Default Orders Functions\Help .xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Default_Orders_Functions.Naseza">
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Default Orders Functions\Naseza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persion_Assistant08.Default_Orders_Functions.send_Email" BaseTypeListCollapsed="true">
+    <Position X="2" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAkQAAQAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Default Orders Functions\send_Email .xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Personalize_Orders.Order">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEgAAAAAAAAAAAAIACAAAAAAAAAiA=</HashCode>
+      <FileName>Personalize Orders\Edit_Orders.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Intionalize_Title_And_Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Persion_Assistant08.Personalize_Orders.Edit_Orders">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAAAAAAAAAAAAAQAAAACAAABAAAIAAA=</HashCode>
+      <FileName>Personalize Orders\Edit_Orders.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Order_Eror" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Persion_Assistant08.Personalize_Orders.Intionalize_Title_And_Address" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAABAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personalize Orders\Intionalize_Title_And_Address.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Personalize_Orders.Order_Eror" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAUAAAAAAAAAAAAAgAQAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Personalize Orders\Order_Eror.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Play_Video.Play_video" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Persion_Assistant08.Play_Video.Play_video.timerTick" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Play Video\Play video.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AARCApAACAAACANQEIDAGIkAQgWAcQgAZAAUQAAEAIQ=</HashCode>
+      <FileName>Play Video\Play video.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Play_Video.Subtitle">
+    <Position X="1.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACIACACAAQAAgAAAACAAAAAAEAAAKAAAAAAQAQAQ=</HashCode>
+      <FileName>Play Video\Subtitle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Timing" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Persion_Assistant08.Play_Video.Ti">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Play Video\Subtitle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persion_Assistant08.Reminder.A_Reminder_That_FindLink">
+    <Position X="10.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reminder\A_Reminder_That_FindLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persion_Assistant08.Reminder.Add_Reminder" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAEAAAAAAAAAsAAAAAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>Reminder\Add_Reminder .xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Reminder" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Reminder.Reminder">
+    <Position X="16" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAABAgAAAAAAAAAAEAIAAAAAAAAAAAiA=</HashCode>
+      <FileName>Reminder\Remember .xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persion_Assistant08.Reminder.Remember" BaseTypeListCollapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAAAABIAAAgAABAAAAAAAAAABAABAAA=</HashCode>
+      <FileName>Reminder\Remember .xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="field" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.Reminder.Reminder_DeadLine" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAkAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Reminder\Reminder_DeadLine .xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Reminder1" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Persion_Assistant08.DA.DataBase">
+    <Position X="16.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DA\DataBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Entity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Persion_Assistant08.DA.Entity">
+    <Position X="18.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQAAAAAAAAAAAEAAAAAAABAAABAAAA=</HashCode>
+      <FileName>DA\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persion_Assistant08.DA.Positions">
+    <Position X="14.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>DA\Positions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

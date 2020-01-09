@@ -1,0 +1,26 @@
+﻿<Window x:Class="Persion_Assistant08.Reminder.Reminder_DeadLine"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Persion_Assistant08"
+        mc:Ignorable="d"
+        Title="Reminder_DeadLine" Height="360" Width="338"  FlowDirection="RightToLeft" Loaded="Window_Loaded" ResizeMode="NoResize">
+
+    <Grid>
+        <TextBlock FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" x:Name="Reminder_T_Ti" HorizontalAlignment="Left" Margin="66,106,0,0" TextWrapping="Wrap" Text="عنوان یاداور" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Reminder_T_Te"   FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" HorizontalAlignment="Left" Margin="196,104,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="32" Width="106"/>
+        <TextBlock x:Name="Something"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" HorizontalAlignment="Left" Margin="66,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="248"/>
+        <TextBlock x:Name="Reminder_Te_Ti"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" HorizontalAlignment="Left" Margin="66,141,0,0" TextWrapping="Wrap" Text="متن یاداور" VerticalAlignment="Top" Height="28" Width="58"/>
+        <ScrollViewer Margin="129,141,0,90" >
+            <TextBlock x:Name="Reminder_Te_Te"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" HorizontalAlignment="Left" Margin="20,10,10,10" TextWrapping="Wrap"  VerticalAlignment="Top" Height="80" Width="118"/>
+
+        </ScrollViewer>
+        <Button x:Name="button" Content="تعویق" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="19" Background="Orange" HorizontalAlignment="Left" Margin="33,262,0,0" VerticalAlignment="Top" Width="58" Height="45" Click="Button_Click"/>
+        <RadioButton x:Name="A_Day"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" Content="یک روز" HorizontalAlignment="Left" Margin="129,246,0,0" Height="38" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Two_Day" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" Content="دوروز" HorizontalAlignment="Left" Margin="228,246,0,0" Height="38" VerticalAlignment="Top"/>
+        <RadioButton x:Name="A_Month" FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" Content="یک ماه" HorizontalAlignment="Left" Margin="228,288,0,0" Height="30" VerticalAlignment="Top"/>
+        <RadioButton x:Name="A_Week"  FontFamily="/Persion Assistant08;component/Fonts And Pictures/#B Karim" FontSize="18" Content="یک هفته" Margin="129,288,123,0" Height="30" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

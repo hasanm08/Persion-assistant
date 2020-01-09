@@ -1,0 +1,302 @@
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_Content.g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.cache
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.lref
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.exe
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.pdb
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe.config
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.pdb
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.dll
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.dll
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.dll
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Interactivity.dll
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.pdb
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.pdb
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.xml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.pdb
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.xml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.g.resources
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.About_US.resources
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Properties.Resources.resources
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.GenerateResource.cache
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CoreCompileInputs.cache
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CopyComplete
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.g.cs
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.baml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csprojResolveAssemblyReference.cache
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
+D:\ht\team\h08\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Migrations.posit.resources
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csprojResolveAssemblyReference.cache
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_Content.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.cache
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.lref
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.exe
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.pdb
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe.config
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.pdb
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Interactivity.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.pdb
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.pdb
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.xml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.pdb
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.xml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.g.resources
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.About_US.resources
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Migrations.posit.resources
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Properties.Resources.resources
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.GenerateResource.cache
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CoreCompileInputs.cache
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CopyComplete
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.pdb
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.xml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.g.cs
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\Audio player\Dictionary1.baml
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\taglib-sharp.dll
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.config
+D:\Uni Files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\DataGridDictionary.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe.config
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.pdb
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Interactivity.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\taglib-sharp.dll
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.pdb
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.pdb
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.xml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.pdb
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.xml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.pdb
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.xml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.config
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csprojAssemblyReference.cache
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\Audio player\Dictionary1.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_Content.g.cs
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.cache
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.lref
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\DataGridDictionary.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.g.resources
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.About_US.resources
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Migrations.posit.resources
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Properties.Resources.resources
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.GenerateResource.cache
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CoreCompileInputs.cache
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CopyComplete
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.exe
+E:\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.pdb
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe.config
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.pdb
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Interactivity.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\taglib-sharp.dll
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.pdb
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.pdb
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.xml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.pdb
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.xml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.pdb
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.xml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.config
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csprojAssemblyReference.cache
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\Audio player\Dictionary1.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_Content.g.cs
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.cache
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.lref
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\DataGridDictionary.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.g.resources
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.About_US.resources
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Migrations.posit.resources
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Properties.Resources.resources
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.GenerateResource.cache
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CoreCompileInputs.cache
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CopyComplete
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.exe
+G:\uni files\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.pdb
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe.config
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.exe
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Persion Assistant08.pdb
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\System.Windows.Interactivity.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\taglib-sharp.dll
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\ControlzEx.pdb
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.xml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\EntityFramework.SqlServer.xml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.pdb
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\HtmlAgilityPack.xml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.pdb
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\MahApps.Metro.xml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.pdb
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\Newtonsoft.Json.xml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\bin\Debug\policy.2.0.taglib-sharp.config
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csprojAssemblyReference.cache
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\Audio player\Dictionary1.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_Content.g.cs
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.cache
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08_MarkupCompile.lref
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\Help .baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Default Orders Functions\send_Email .baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Fonts And Pictures\DataGridDictionary.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Intionalize_Title_And_Address.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Personalize Orders\Order_Eror.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\PlayListWindow.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Song\Song Player.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Play Video\Play video.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Add_Reminder .baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Remember .baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Reminder\Reminder_DeadLine .baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Video Downloader\Links .baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.g.resources
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.About_US.resources
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Migrations.posit.resources
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion_Assistant08.Properties.Resources.resources
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.GenerateResource.cache
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persian Assistant.csproj.CopyComplete
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.exe
+E:\UniFiles\Codes\WpfApplication2\WpfApplication2\WpfApplication2\obj\Debug\Persion Assistant08.pdb
